@@ -7,127 +7,135 @@
 --bgLight: rgb(190, 181, 181);
 } */
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    
-    }
-    header{
-    background-color: black;
-    color: white;
-    }
-    header nav .left a{
-    /* color: var(--white); */
-    color: wheat;
-    text-decoration: none;
-    margin-right: 2rem;
-    text-transform: uppercase;
-    transition: all 2s ease;
-    }
-    header nav .left a:hover{
-    color: white;
-    }
-    header nav {
-    padding: 2rem 0;
-    }
- 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  
+  }
+  header{
+    background: #272343; 
+        color: white;
+  }
+  header nav .left a{
+  /* color: var(--white); */
+  color: wheat;
+  text-decoration: none;
+  margin-right: 2rem;
+  text-transform: uppercase;
+  transition: all 2s ease;
+  }
+  header nav .left a:hover{
+  color: white;
+  }
+  header nav {
+  padding: 2rem 0;
+  }
+
+  
+  body{
+      font-family: 'poppins', sans-serif;
+
+      }
+      .container{
+      max-width: 1152px;
+      padding: 0 15px;
+      margin: 0 auto;
+      
+      }
+      .hero{
+      padding-top: 2rem;
+      padding-bottom: 3rem;
+      background: #ffffff; 
+      }
+      .hero .left img{
+      width: 50%;
+      margin-left: 10px;
+      }
+      .hero .right {
+      width: 50%;
+      }
+
+      .hero .right h6{
+      font-size: 1.6rem;
+      color: rgb(29, 221, 189);
+      margin-bottom: 0.5rem;
+      }
+      .hero .right h1{
+      font-size: 2rem;
+      font-weight: 100;
+      line-height: 1.2;
+      margin-bottom: 2rem;
+      }
+      .hero .right h1 span{
+      color: rgb(29, 221, 189);
+      }
+      .hero .right p{
+      line-height: 1.9;
+      margin-bottom: 2rem;
+      }
 
 
-    body{
-        font-family: 'poppins', sans-serif;
-        background-color: khaki;
-        }
-        .container{
-        max-width: 1152px;
-        padding: 0 15px;
-        margin: 0 auto;
-        
-        }
-        .hero{
-        padding-top: 2rem;
-        padding-bottom: 3rem;
-        
-        }
-        .hero .left img{
-        width: 300px;
-        margin-left: 10px;
-        }
-        /* .hero .right {
-        } */
+      .flex{
+          display: flex;
+          }
+          .items-centre{
+          align-items: center;
+          }
+          .justify-between{
+          justify-content: space-between;
+          }
+          .justify-center{
+          justify-content: center;
+          }
+          .justify-right{
+          justify-content: right;
+          }
+          .btn{
+          padding: 0.6rem 2rem;
+          font-size: 1rem;
+          font-weight: 600;
+          border: 2px solid transparent;
+          outline: none;
+          cursor: pointer;
+          text-transform: uppercase;
+          transition: all .2s ease;
+          }
+          .btn-primary{
+          background-color: rgb(29, 221, 189);
+          color: rgb(0, 59, 50);
+          margin-top: -15rem;
+          }
+          .btn-primary:hover{
+          background: transparent;
+          border-color: rgb(29, 221, 189);
+          color: rgb(29, 221, 189);
+          }
+          .flex-1{
+          flex: 1;
+          }
+          .btn-secondary{
+          background: transparent;
+          color: rgb(29, 221, 189);
+          border-color: rgb(29, 221, 189);
+          }
+          .btn-secondary:hover{
+          background: rgb(29, 221, 189);
+          color: rgb(0, 59, 50);
+          }
 
-        .hero .right h6{
-        font-size: 1.6rem;
-        color: rgb(29, 221, 189);
-        margin-bottom: 0.5rem;
-        }
-        .hero .right h1{
-        font-size: 4rem;
-        font-weight: 100;
-        line-height: 1.2;
-        margin-bottom: 2rem;
-        }
-        .hero .right h1 span{
-        color: rgb(29, 221, 189);
-        }
-        .hero .right p{
-        line-height: 1.9;
-        margin-bottom: 2rem;
-        }
+          .carousel-indicators li { visibility: hidden; }
 
-
-        .flex{
-            display: flex;
-            }
-            .items-centre{
-            align-items: center;
-            }
-            .justify-between{
-            justify-content: space-between;
-            }
-            .justify-center{
-            justify-content: center;
-            }
-            .justify-right{
-            justify-content: right;
-            }
-            .btn{
-            padding: 0.6rem 2rem;
-            font-size: 1rem;
-            font-weight: 600;
-            border: 2px solid transparent;
-            outline: none;
-            cursor: pointer;
-            text-transform: uppercase;
-            transition: all .2s ease;
-            }
-            .btn-primary{
-            background-color: rgb(29, 221, 189);
-            color: rgb(0, 59, 50);
-            margin-top: -15rem;
-            }
-            .btn-primary:hover{
-            background: transparent;
-            border-color: rgb(29, 221, 189);
-            color: rgb(29, 221, 189);
-            }
-            .flex-1{
-            flex: 1;
-            }
-            .btn-secondary{
-            background: transparent;
-            color: rgb(29, 221, 189);
-            border-color: rgb(29, 221, 189);
-            }
-            .btn-secondary:hover{
-            background: rgb(29, 221, 189);
-            color: rgb(0, 59, 50);
-            }
-
-            .carousel-indicators li { visibility: hidden; }
-
- section{
-padding: 6rem;
+section{
+padding-top: 2rem;
+padding-bottom: 3rem;
+background: #e3f6f5; 
+}
+.about2 .container .left img{
+width: 50%;
+}
+.about2 .right{
+width: 50%;
 }
 section.about2 h1{
 margin-bottom: 1rem;
@@ -150,6 +158,8 @@ margin-bottom: 2rem;
 }
 section.about2 .socials{
 display: flex;
+flex-wrap: wrap;
+
 }
 section.about2 .socials a{
 display: flex;
@@ -166,14 +176,14 @@ transition: all 2s linear;
 
 
 section.services{
-background:rgb(78, 155, 78);
+background: #bae8e8; 
 }
 .services-head{
 color: rgb(10, 9, 9);
 text-align: center;
 margin-bottom: 1rem;
 line-height: 0.5rem;
-color: rgb(29, 221, 189);
+color: rgb(248, 149, 0);
 }
 .services-head + p{
 color: var(--white);
@@ -186,22 +196,22 @@ font-weight: 400;
 .card img{
 width: 100px;
 background:white;
+
 }
 section.services .card-grid{
-display: grid;
-grid-template-columns: repeat(3,1fr);
+display: flex;
 column-gap: 2rem;
 }
 section.services .card-grid .card{
-background: palegreen;
-padding: 3rem 2rem;
-position: relative;
+/* background: palegreen; */
+padding: 5rem 2rem 3rem; 
+position: relative; 
 text-align: center;
 transition: all .2s ease;
 }
 section.services .card-grid .card img{
 position: absolute;
-top: -1.5rem;
+top: 5%;
 left: 50%;
 transform: translateX(-50%);
 }
@@ -225,65 +235,69 @@ section.services .card-grid .card:hover p{
 color: rgb(250, 250, 250);
 }
 
-.decoration{
-  text-decoration: dashed;
+.card{
+display: flex;
+flex: 1;
+flex-direction: column;
+overflow: hidden
+
 }
 
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 /* .contain {
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
+/* display: flex;
+justify-content: center;
+align-items: center;
 }
-  */
+*/
 
 
 form {
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  padding: 2vw 4vw;
-  width: 60%;
-  max-width: 600px;
-  border-radius: 10px;
+background-color: white;
+display: flex;
+flex-direction: column;
+padding: 2vw 4vw;
+width: 60%;
+max-width: 600px;
+border-radius: 10px;
 }
 
 form h2 {
-  text-align: center;
-  color: #e65b00;
-  margin-bottom: 20px;
+text-align: center;
+color: #e65b00;
+margin-bottom: 20px;
 }
 
 form input, textarea {
-  border: 0;
-  margin: 10px 0px;
-  padding: 20px;
-  outline: none;
-  background: #f5f5f5;
-  font-size: 16px;
-  border-radius: 10px;
-  resize: none;
+border: 0;
+margin: 10px 0px;
+padding: 20px;
+outline: none;
+background: #f5f5f5;
+font-size: 16px;
+border-radius: 10px;
+resize: none;
 }
 
 form button {
-  background: white;
-  color: #e65b00;
-  border: 1px solid #e65b00;
-  padding: 15px;
-  font-size: 1rem;
-  outline: none;
-  cursor: pointer;
-  width: 100%;
-  font-weight: bold;
-  margin: 20px auto 0;
-  border-radius: 30px;
-  transition: all .5s ease-in;
+background: white;
+color: #e65b00;
+border: 1px solid #e65b00;
+padding: 15px;
+font-size: 1rem;
+outline: none;
+cursor: pointer;
+width: 100%;
+font-weight: bold;
+margin: 20px auto 0;
+border-radius: 30px;
+transition: all .5s ease-in;
 }
 
 form button:hover {
-  border: 1px solid #e65b00;
-  background: #e65b00;
-  color: white;
+border: 1px solid #e65b00;
+background: #e65b00;
+color: white;
 }
